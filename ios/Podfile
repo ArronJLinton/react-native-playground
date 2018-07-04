@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Charlie' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for Charlie
+  pod 'Firebase/Messaging'
+
+  # target 'Charlie-tvOSTests' do
+  #   inherit! :search_paths
+  #   # Pods for testing
+  # end
+
+  target 'CharlieTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+# target 'Charlie-tvOS' do
+#   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+#   # use_frameworks!
+
+#   # Pods for Charlie-tvOS
+
+#   target 'Charlie-tvOSTests' do
+#     inherit! :search_paths
+#     # Pods for testing
+#   end
+
+# end
